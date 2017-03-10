@@ -1,0 +1,74 @@
+html {
+  font-size: 17px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #456990;
+  font-family: 'Roboto', sans-serif;
+}
+
+input,
+button {
+  font-size: 1.1rem;
+  border: none;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.field {
+  display: flex;
+}
+
+.field-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #E4FDE1;
+  opacity: 0;
+  transition: all .3s ease;
+  text-transform: uppercase;
+}
+
+.field-row h2 {
+  font-size: 1.3rem;
+}
+
+.field-row p {
+  margin: 0;
+}
+
+.box-input {
+  padding: 9px;
+  width: 25rem;
+  border-radius: 2px 0 0 2px;
+}
+
+.box-button {
+  background: #F45B69;
+  border-radius: 0 2px 2px 0;
+  color: #E4FDE1;
+  width: 7rem;
+  opacity: 1;
+  cursor: pointer;
+  transition: all .3s ease 0s;
+}
+
+.box-button:hover{
+  opacity: 0.85;
+}
+
+.show-word {
+  opacity: 1;
+}
+
