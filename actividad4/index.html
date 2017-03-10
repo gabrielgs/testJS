@@ -1,10 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Document</title>
+  <title>Convertir</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-  <script type="text/javascript" src="index.js"></script>
+  <main>
+    <section class="box">
+      <article class="field">
+        <input class="box-input" id="inputNumber" type="text" placeholder="Ingresa Numeros">
+        <button class="box-button" id="btnConvert">Convertir</button>
+      </article>
+      <article id="boxWord" class="field-row">
+        <h2>La palabara es:</h2>
+        <p id="word"></p>
+      </article>
+    </section>
+  </main>
+  <script src="./js/numberToWord.js"></script>
 </body>
 </html>
