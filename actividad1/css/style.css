@@ -1,0 +1,75 @@
+html {
+  font-size: 16px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto Mono', monospace;
+  background: #395E66;
+}
+
+input {
+  border: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+h2 {
+  color: #72BDA3;
+}
+
+.main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.rect input,
+.btn {
+  border-radius: 2px;
+}
+
+.rect input {
+  color: #72BDA3;
+  border-radius: 2px;
+  padding: 10px;
+}
+
+.btn {
+  border: 2px solid #72BDA3;
+  background: #395E66;
+  color: #72BDA3;
+  cursor: pointer;
+  font-size: 1.1rem;
+  padding: 1rem;
+  width: 60%;
+  margin-top: 1rem;
+  transition: all .3s ease;
+}
+
+.btn:hover {
+  background: #72BDA3;
+  color: #395E66;
+}
+
+.draw {
+  opacity: 0;
+  transition: all .5s ease 0s;
+}
+
+.show-rectangles {
+  border-radius: 2px;
+  border: 2px solid #87A0B2;
+  opacity: 1;
+}

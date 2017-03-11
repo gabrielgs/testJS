@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,400" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <main class="main">
+    <section class="container">
+      <article class="rect">
+        <h2>Rectangulo 1</h2>
+        <input id="js-rect1X" type="text" placeholder="Coordenada x">
+        <input id="js-rect1Y" type="text" placeholder="Coordenada y">
+        <input id="js-rect1W" type="text" placeholder="Width">
+        <input id="js-rect1H" type="text" placeholder="Height">
+      </article>
+
+      <article class="rect">
+        <h2>Rectangulo 2</h2>
+        <input id="js-rect2X" type="text" placeholder="Coordenada x">
+        <input id="js-rect2Y" type="text" placeholder="Coordenada y">
+        <input id="js-rect2W" type="text" placeholder="Width">
+        <input id="js-rect2H" type="text" placeholder="Height">
+      </article>
+
+      <input id="js-btnCheck" class="btn" type="button" value="Comprobrar">
+    </section>
+
+    <section id="js-containerCanvas" class="container draw ">
+      <h2 id="js-canvasTitle"></h2>
+      <canvas id="canvas" width="300px" height="300px"></canvas>
+    </section>
+  </main>
+
+  <script src="./js/intersec.js"></script>
+</body>
+</html>
