@@ -12,5 +12,9 @@
     "body-parser": "^1.17.1",
     "express": "^4.15.2",
     "mongoose": "^4.8.6"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.2.1"
   }
 }
