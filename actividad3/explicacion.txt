@@ -1,0 +1,22 @@
+Diferencia entre las dos.
+
+La solución 1 utiliza las funciones Math.max() y Math.min propias de javascript
+para encontrar el mayor número y el menor número que uno le pase por
+parámetro al contrario de la solución 2 define dos funciones para encontrar el mayor
+y menor número.
+
+Creo que lo antes mencionado hace que en la solución 1 el código se vea más limpio y
+fácil de entender.
+
+¿Cuál es mejor?
+La mejor solución es la uno el código es más limpio y mas corto a la vez
+que es más rápida, utiliza lo que se llama el “spread operator” doSruff(...args) que nos permite
+evitar el uso de apply doStuff.apply(null, args) a la hora de utilizar Mat.max() y Math.min()
+no necesitamos utilizar el inservible null.
+
+Lo anterior dicho se puede comprobar con el teste que hice en la siguiente página.
+https://jsperf.com/max-diff
+
+Se puede apreciar como realmente la velocidad de la solución uno es mayor.
+
+
